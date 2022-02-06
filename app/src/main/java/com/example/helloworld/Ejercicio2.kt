@@ -1,7 +1,7 @@
 package com.example.helloworld
 
 fun main(){
-
+//se le dan los valores a lso arrays
     val array1 = arrayOf<Int>()
     val array2 = arrayOf<Int>(2,42,6)
     val array3 = arrayOf<Int>(10,5,30)
@@ -13,6 +13,8 @@ fun main(){
     val array9= arrayOf<Int>()
     val array10 = arrayOf<Int>(1,10,66)
 
+    //se suman los valores de los arrays
+
     val prueba1 = sumarrays(array1)
     val prueba2 = sumarrays(array2)
     val prueba3 = sumarrays(array3)
@@ -23,6 +25,8 @@ fun main(){
     val prueba8 = sumarrays(array8)
     val prueba9 = sumarrays(array9)
     val prueba10 = sumarrays(array10)
+
+    //se imprimen los resultados
     println("Test1 pasado ${prueba1==-1}")
     println("Test2 pasado ${prueba2==50}")
     println("Test3 pasado ${prueba3==45}")
